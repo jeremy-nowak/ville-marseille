@@ -1,8 +1,9 @@
 .main{
+    background-color: white;
     display: flex;
     flex-direction: column;
     font-family: 'Roboto Condensed', sans-serif;
-    padding : 2%;
+    
     
     
 }
@@ -36,6 +37,7 @@
 
 .block{
     display: flex;
+    padding: 3%;
     
     flex-direction: column;
     
