@@ -1,8 +1,27 @@
-.guidebox{
-    display: flex;
-    align-items: center;
+
+body{margin-left: 12%;
+    margin-right: 12%;}
+
+.guidebox{display:flex;
+        margin-top: 40px;
+    }
+
+img {width: 920px;
+    height: 500px;
+    border-radius: 50px 25px 15px 5px;
+}
+
+.guidetxt{border: solid 2px black;
+    border-radius: 25%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding:20px;
 }
 
 h1{
     text-align: center;
+    color: blue
 }
+
