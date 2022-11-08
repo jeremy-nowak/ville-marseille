@@ -1,13 +1,15 @@
 .main{
     display: flex;
     flex-direction: column;
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding : 2%;
     
     
 }
 .bg img{
     width: 100%;
     height: 700px;
+    border-radius: 40px;
 
 }
 .block img{
@@ -21,7 +23,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url("https://img.freepik.com/photos-premium/fond-texture-papier-jauni-manuscrit-patine-comme-fond-ecran_84485-2367.jpg?w=2000");
+    
     
 }
 .text h3{
@@ -35,6 +37,8 @@
 .block{
     display: flex;
     
+    flex-direction: column;
+    
 }
 .block p{
     text-align: justify;
@@ -42,16 +46,71 @@
 
 .ensimg{
     display: flex;
-    width: 50%;
+    width: 55%;
     padding: 2%;
+    
 
 
 }
 .enstext{
     display: flex;
-    width: 50%;
-    flex-direction: column;
+    width: 45%;
+    align-items: center;
+    font-size: large;
+    
+    border-radius: 40px;
+    
     padding: 2%;
     
     
+
+}
+.blockbis{
+    display: flex;
+    flex-direction: row;
+    margin: none;
+    box-shadow: 12px 12px 12px #44c7f5;
+    padding: 2%;
+    border-radius: 40px;
+    
+    border: none;
+}
+.blockbis1{
+    display: flex;
+    flex-direction: row;
+    margin: none;
+    box-shadow: -12px 12px 12px #44c7f5;
+    padding: 2%;
+    border-radius: 40px;
+    
+    border: none;
+}
+.enstitle h1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    padding-top: 7%;
+    
+}
+
+.block span{
+    color: #3FA4FF;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 4%;
+    
+    
+}
+.enstitle{
+    
+    
+    padding-left: 20%;
+    padding-right: 20%;
+    
+
 }
