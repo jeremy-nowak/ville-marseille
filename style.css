@@ -1,0 +1,27 @@
+.btn.-bg-black, .cc-window .cc-compliance a.-bg-black, .tabs-primary.tabs.primary a.-bg-black {
+    padding: 13px 50px 13px 20px;
+    background: #000;
+    color: #fff;
+    border: 1px solid #000;
+    
+ }
+ .btn, .cc-window .cc-compliance a, .tabs-primary.tabs.primary a {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 13px 30px 13px 20px;
+    overflow: hidden;
+    color: #000;
+    font-family: 'Inter Semi Bold';
+    font-size: .83333em;
+    text-decoration: none;
+    border: 0;
+    -webkit-transition: ease .6s;
+    transition: ease .6s;
+
+    }
+  
+    .btn.btn.-bg-black{
+        
+        focus, .btn.-bg-black:not(.no-rollover):hover, .cc-window .cc-compliance a.-bg-black:not(.no-rollover):focus, .cc-window .cc-compliance a.-bg-black:not(.no-rollover):hover, .tabs-primary.tabs.primary a.-bg-black:not(.no-rollover):focus, .tabs-primary.tabs.primary a.-bg-black:not(.no-rollover):hover
+}
