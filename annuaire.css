@@ -21,6 +21,7 @@ th {
 
 td text{
   text-align: center;
+  
 }
 
 tr:nth-child(even) td {
