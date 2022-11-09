@@ -69,6 +69,7 @@ header img{
     }
     .actu-main img{
         width: 100%;
+        height: 100%;
     }
     .main-txt{
         width: 300px;
@@ -91,6 +92,10 @@ header img{
         height: 400px;
         background-color: white;
     }
+    .actu-small:hover{
+        transform: scale(1.05);
+        transition-duration: 0.3s;
+    }
     .actu-small img{
         width: 100%;
     }
@@ -100,6 +105,35 @@ header img{
     .actus a{
         text-decoration: none;
         color: black;
+    }
+    #more-info::before{
+        content: "";
+        background-color: white;
+        height: 1px;
+        width: 40%;
+    }
+    #more-info::after{
+        content: " ";
+        background-color: white;
+        height: 1px;
+        width: 40%;
+    }
+    #more-info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        width: 100%;
+        gap: 10px;
+        font-size: 80%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    #more-info a{
+        color: #006533;
+    }
+    #more-info a:hover{
+        color: gold;
     }
 
 
@@ -131,6 +165,9 @@ header img{
     .renov-txt a{
         text-decoration: none;
         color: white;
+    }
+    #know-more2 i{
+        font-size: 80%;
     }
 
 footer{
