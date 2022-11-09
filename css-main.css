@@ -79,10 +79,10 @@ header img{
     .main-txt i{
         font-size: 60%;
     }
-    #know-more{
+    #know-more1{
         color: green;
     }
-    #know-more:hover{
+    #know-more1:hover{
         text-decoration: underline green;
         transition-duration: 2s;
     }
@@ -102,7 +102,34 @@ header img{
         color: black;
     }
 
-    
+.renov-school{
+    background-image: url(https://www.marseille.fr/sites/default/files/styles/1280x550/public/contenu/education/Images/paralax_eduction_renovation_compressee.jpg?itok=TCyRAgMT);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 700px;
+}
+    .renov-txt{
+        background-color: #006533;
+        color: white;
+        width: 300px;
+        height: 150px;
+        padding: 2%;
+        font-size: 80%;
+        position:absolute;
+        display: flex;
+        flex-direction: column;
+        top: 310%;
+        right: 23%;
+        padding: 3%;
+        font-size: 80%;
+    }
+    .renov-txt a{
+        text-decoration: none;
+        color: white;
+    }
+
 footer{
     background-color: #006533;
     display: flex;
