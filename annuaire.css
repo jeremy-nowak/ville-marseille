@@ -4,9 +4,10 @@ html {
 
 table {
   border-collapse: collapse;
-  border: 2px solid rgb(200,200,200);
-  letter-spacing: 1px;
+  border: 3px solid rgb(200,200,200);
+  letter-spacing: 1.3px;
   font-size: 0.8rem;
+  
 }
 
 td, th {
@@ -15,11 +16,14 @@ td, th {
 }
 
 th {
-  background-color: rgb(235,235,235);
+  background-color: rgb(107, 168, 238);
 }
 
-td {
+td text{
+  display: flex;
   text-align: center;
+  flex-direction: column;
+  
 }
 
 tr:nth-child(even) td {
@@ -30,6 +34,3 @@ tr:nth-child(odd) td {
   background-color: rgb(245,245,245);
 }
 
-caption {
-  padding: 10px;
-}
