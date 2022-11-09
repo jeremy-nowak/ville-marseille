@@ -1,9 +1,10 @@
-body{margin-left: 12%;
-    margin-right: 12%;
-    background: rgb(68,199,245);
+body {background: rgb(68,199,245);
     background: linear-gradient(90deg, rgba(68,199,245,1) 0%, rgba(255,255,255,1) 11%, rgba(68,199,245,1) 95%);
-
 }
+.main {margin:0;
+    margin-left: 15%;
+    margin-right:15%;}
+
 
 .guidebox{display:flex;
         margin-top: 40px;
