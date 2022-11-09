@@ -10,19 +10,18 @@ body {background: rgb(68,199,245);
         margin-top: 40px;
         padding-top: 3%;
         padding-bottom: 3%;
-    }
+}
 
 .guide1 {width: 920px;
         height: 500px;
-        border-radius: 45px 0px 0px 45px
+        border-radius: 45px 0px 0px 45px;
     }
 
 .guide2 {width: 920px;
         height:500px;
         border-radius: 0px 45px 45px 0px}
 
-.guide img{height:500px;
-    }
+/* .guideimg img{width: 100%;} */
 
 .guidetxt1{display: flex;
         flex-direction: column;
@@ -47,3 +46,5 @@ body {background: rgb(68,199,245);
         border-radius: 45px 0px 0px 45px;
 
     }
+
+/* .guideimg{border:solid 3px black} */
