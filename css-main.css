@@ -64,6 +64,8 @@ header img{
         width: 100%;
         background-color: white;
     }
+    .actu-main:hover{
+        box-shadow: 35px 15px 30px#444444;    }
     .main-img{
         width: 60%;
     }
