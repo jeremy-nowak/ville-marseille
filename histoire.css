@@ -1,11 +1,7 @@
 .main{
     background-color: white;
     display: flex;
-    flex-direction: column;
-    font-family: 'Roboto Condensed', sans-serif;
-    
-    
-    
+    flex-direction: column;  
 }
 .bg img{
     width: 100%;
