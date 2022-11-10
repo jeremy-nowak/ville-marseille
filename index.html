@@ -33,7 +33,37 @@
     </nav>
 
     <header>
-        <img src="https://www.okvoyage.com/wp-content/uploads/2020/03/marseille-france.jpg">
+        <div class="slideshow">
+            <div class="slide-pic" style="display: none;">
+                <div class="numbertext">1 / 5</div>
+                <img src="https://www.okvoyage.com/wp-content/uploads/2020/03/marseille-france.jpg">
+            </div>
+            <div class="slide-pic" style="display: none;">
+                <div class="numbertext">2 / 5</div>
+                <img src="https://images.wallpapersden.com/image/download/marseille-france-mediterranean-sea_ZmppaW2UmZqaraWkpJRmbmdlrWZlbWU.jpg">
+            </div>
+            <div class="slide-pic" style="display: block;">
+                <div class="numbertext">3 / 5</div>
+                <img src="https://wallup.net/wp-content/uploads/2019/09/536824-marseille-france-provence-13-cities-monuments-panorama-panoramic-urban-architecture-port-sea-vieux-harbor-1.jpg">
+            </div>
+            <div class="slide-pic" style="display: none;">
+                <div class="numbertext">4 / 5</div>
+                <img src="https://wallpaperaccess.com/full/712315.jpg">
+            </div>
+            <div class="slide-pic" style="display: none;">
+                <div class="numbertext">5 / 5</div>
+                <img src="https://rare-gallery.com/uploads/posts/763753-France-Houses-Marinas-Boats-Marseille.jpg">
+            </div> 
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>   
+            <div class="dots">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot active" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+            </div>  
+        </div>
     </header>
 
     <section class="actus">
@@ -245,5 +275,37 @@
             </ul>     
         </div>
     </footer>
+    <script>
+        let slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+            showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) {
+            showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("slide-pic");
+            let dots = document.getElementsByClassName("dot");
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}
+            dots[slideIndex-1].className += " active";
+            setTimeout(showSlides, 2000)          
+            }          
+    </script>
 </body>
 </html>
