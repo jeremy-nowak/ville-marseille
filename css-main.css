@@ -3,6 +3,11 @@ body{
  font-family: 'Roboto', sans-serif;
 }
 
+.index{
+    background-color: antiquewhite;
+    padding-bottom: 120px;
+}
+
 nav{
     display: flex;
     flex-direction: column;
@@ -97,6 +102,10 @@ header img{
     margin-right: 15%;
     font-size: 120%;
 }
+    .actus h1{
+        color: #006533;
+        font-size: 200%;
+    }
     .actu-content{
         display: flex;
         flex-wrap: wrap;
@@ -112,6 +121,7 @@ header img{
     }
     .actu-main:hover{
         box-shadow: 35px 15px 30px#444444;
+        transition-duration: 0.5s;
         }
     .main-img{
         width: 60%;
@@ -138,7 +148,7 @@ header img{
     }
     .actu-small{
         width: 300px;
-        height: 400px;
+        height: 450px;
         background-color: white;
     }
     .actu-small:hover{
@@ -177,12 +187,14 @@ header img{
         font-size: 80%;
         margin-left: 15%;
         margin-right: 15%;
+        margin-top: 50px;
     }
     #more-info a{
         color: #006533;
     }
     #more-info a:hover{
         color: gold;
+        transition-duration: 0.5s;
     }
 
 
@@ -215,6 +227,10 @@ header img{
         text-decoration: none;
         color: white;
     }
+    .renov-txt:hover{
+        transform: scale(1.05);
+        transition-duration: 0.5s;
+    }
     #know-more2 i{
         font-size: 80%;
     }
@@ -224,7 +240,6 @@ footer{
     display: flex;
     padding-left: 15%;
     padding-right: 15%;
-    margin-top: 100px;
     color:white;
     align-items: center;
 }
