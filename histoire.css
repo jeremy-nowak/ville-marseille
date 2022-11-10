@@ -3,29 +3,21 @@
     display: flex;
     flex-direction: column;
     font-family: 'Roboto Condensed', sans-serif;
-    
-    
-    
 }
 .bg img{
     width: 100%;
     height: 700px;
-    
-
 }
 .block img{
     width: 100%;
     border-radius: 40px;
     display: flex;
     height: 500px;
-    
 }
 .text{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
-    
 }
 .text h3{
     display: flex;
@@ -35,39 +27,27 @@
     padding-left: 5%;
     color: #6C464E;
 }
-
 .block{
     display: flex;
     padding: 3%;
-    
     flex-direction: column;
-    
 }
 .block p{
     text-align: justify;
     color: #6C464E;
 }
-
 .ensimg{
     display: flex;
     width: 55%;
     padding: 2%;
-    
-
-
 }
 .enstext{
     display: flex;
     width: 45%;
     align-items: center;
     font-size: large;
-    
     border-radius: 40px;
-    
     padding: 2%;
-    
-    
-
 }
 .blockbis{
     display: flex;
@@ -76,7 +56,6 @@
     box-shadow: 12px 12px 12px #32A287;
     padding: 2%;
     border-radius: 40px;
-    
     border: none;
 }
 .blockbis1{
@@ -86,7 +65,6 @@
     box-shadow: -12px 12px 12px #32A287;
     padding: 2%;
     border-radius: 40px;
-    
     border: none;
 }
 .enstitle h1{
@@ -94,11 +72,8 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    
     padding-top: 7%;
-    
 }
-
 .block span{
     color: #00C2D1;
     font-size: larger;
@@ -107,16 +82,10 @@
     flex-direction: column;
     align-items: center;
     padding-bottom: 4%;
-    
-    
 }
 .enstitle{
-    
-    
     padding-left: 20%;
     padding-right: 20%;
-    
-
 }
 .main h1{
     color: #6C464E;
