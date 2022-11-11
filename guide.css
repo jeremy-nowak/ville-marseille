@@ -49,3 +49,38 @@ body {background: rgb(68,199,245);
     background: linear-gradient(90deg, rgba(68,199,245,1) 0%, rgba(255,255,255,1) 11%, rgba(68,199,245,1) 95%);
     
 }
+
+@media screen and (max-width:920px){
+    .guidebis{
+        display:flex;
+        flex-direction: column;
+        width: 90%;
+        border-radius: 0;
+    }
+    .guidetxt{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        padding: 5%;
+    }
+    .guidetxt h1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .guideimgg{
+        width: 100%;
+        border-radius: 0;
+    }
+    .guideimgd{
+        width: 100%;
+        border-radius: 0;
+    }
+    .guideimgg img{
+        border-radius: 0;
+    }
+    
+    .guideimgd img{
+        border-radius: 0;
+    }
+}
