@@ -32,17 +32,38 @@ nav{
         color: black;
     }
     nav a:hover{
-        color:#2C62CB
+        color:#2C62CB;
     }
     #header-sous-menu{
         display: none;
         list-style-type: none;
         padding: 0;
+        background-color: white;
+        border-radius: 10px;
+        padding-bottom: 10px;
+        padding-top: 19.5px;
+    }
+    #header-sous-menu i{
+        font-size: 100%;
+        margin-right: 10px;
+    }
+    #header-sous-menu li{
+        line-height: 30px;
+        padding: 15px;
+    }
+    #header-sous-menu li:hover{
+        background-color:#2c61cb3b;
+        color: black;
+        transition-duration: 0.8s;
+    }
+    #header-sous-menu li:hover i{
+        color:#2C62CB;
     }
     #header-deroulant:hover ul{
-        display: block
+        display: block;
+        position: absolute;
+        border-top: none;
     }
-
 
 header img{
     width: 100%;
