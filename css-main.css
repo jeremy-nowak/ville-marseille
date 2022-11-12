@@ -313,9 +313,9 @@ footer{
         display: none;
         list-style-type: none;
         padding: 0;
-        margin-left: 47%;
         position: absolute;
-        bottom: 146px
+        bottom: 146px;
+        padding-left: 100px;
     }
 
     #footer-deroulant:hover ul{

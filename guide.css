@@ -83,4 +83,7 @@ body {background: rgb(68,199,245);
     .guideimgd img{
         border-radius: 0;
     }
+    #beach-map{
+        width: 90%;
+    }
 }
